@@ -3,7 +3,7 @@ import pandas as pd
 import flask
 from flask import request
 import pandas as pd
-app = Flask(__name__)
+app = flask.Flask(__name__)
 
 @app.route("/", methods=['POST','GET'])
 def calculate():
