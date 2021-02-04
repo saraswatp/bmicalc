@@ -1,0 +1,15 @@
+<html>
+      <body>
+          <form action="/" method="POST">
+              WEIGHT(Kg)
+              <input type="text" name="weight"><br>
+              HEIGHT(cm)
+              <input type="text" name="height"><br>
+              <button type="submit" value="submit">Calculate</button>
+          </form>
+          {%if bmi%}
+          <p>Your body mass index is {{bmi}}</p>
+          {%endif%}
+
+      </body>
+</html>
